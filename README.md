@@ -23,6 +23,7 @@ Take control of your Facebook experience by blocking distractions like Reels, St
 
 ### Step 1: Download
 Click the green **"Code"** button above → **"Download ZIP"**
+<img width="950" height="416" alt="image" src="https://github.com/user-attachments/assets/8c89a9b8-07d7-4760-bf2d-730713ca00bb" />
 
 ### Step 2: Unzip
 Extract the downloaded ZIP file to a folder
