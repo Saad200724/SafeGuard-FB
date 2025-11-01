@@ -38,6 +38,8 @@ Extract the downloaded ZIP file to a folder
 ---
 
 ## 🎯 How to Use
+<img width="830" height="368" alt="image" src="https://github.com/user-attachments/assets/402e7c6a-c775-4229-8a73-ef5b408d9c35" />
+
 
 1. Click the **SafeGuard icon** 🛡️ in your browser toolbar
 2. **Toggle features** on/off as you need
