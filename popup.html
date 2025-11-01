@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeGuard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-bg"></div>
+      <div class="header-content">
+        <div class="title-wrapper">
+          <div class="icon-wrapper">
+            <svg class="shield-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h1 class="title">SafeGuard</h1>
+        </div>
+        <p class="subtitle">Take control of your Facebook experience</p>
+      </div>
+    </div>
+
+    <!-- Settings Card -->
+    <div class="settings-wrapper">
+      <div class="settings-card">
+        <div class="settings-list">
+          <!-- Block Reels -->
+          <div class="setting-item">
+            <div class="setting-content">
+              <div class="setting-info">
+                <span class="setting-label">Block Reels</span>
+              </div>
+              <button class="toggle" data-setting="blockReels">
+                <div class="toggle-slider">
+                  <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <!-- Block Stories -->
+          <div class="setting-item">
+            <div class="setting-content">
+              <div class="setting-info">
+                <span class="setting-label">Block Stories</span>
+              </div>
+              <button class="toggle" data-setting="blockStories">
+                <div class="toggle-slider">
+                  <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <!-- Hide Home Feed -->
+          <div class="setting-item">
+            <div class="setting-content">
+              <div class="setting-info">
+                <span class="setting-label">Hide Home Feed</span>
+              </div>
+              <button class="toggle" data-setting="hideHomeFeed">
+                <div class="toggle-slider">
+                  <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <!-- Block FB Ads -->
+          <div class="setting-item">
+            <div class="setting-content">
+              <div class="setting-info">
+                <span class="setting-label">Block FB Ads</span>
+              </div>
+              <button class="toggle" data-setting="blockFBAds">
+                <div class="toggle-slider">
+                  <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <!-- Hide Notification Badges -->
+          <div class="setting-item">
+            <div class="setting-content">
+              <div class="setting-info">
+                <span class="setting-label">Hide Notification Badges</span>
+                <span class="badge beta">beta</span>
+              </div>
+              <button class="toggle" data-setting="hideNotificationBadges">
+                <div class="toggle-slider">
+                  <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="status">
+        <div class="status-dot"></div>
+        Extension is enabled
+      </div>
+      <div class="update-info">Last update: 1 Nov, 2025</div>
+      <div class="developer-info">
+        Developed by 
+        <a href="https://github.com/Saad200724" target="_blank" class="developer-link">
+          Saad Bin Tofayel Tahsin
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
