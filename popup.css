@@ -7,6 +7,7 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   width: 320px;
+  height: 470px;
   background: linear-gradient(to bottom right, #0f172a, #1e293b, #0f172a);
   color: white;
   overflow: hidden;
@@ -14,6 +15,9 @@ body {
 
 .container {
   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
@@ -30,7 +34,7 @@ body {
 
 .header-content {
   position: relative;
-  padding: 24px 20px 20px;
+  padding: 20px 20px 16px;
   text-align: center;
 }
 
@@ -39,11 +43,11 @@ body {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .icon-wrapper {
-  padding: 10px;
+  padding: 8px;
   background: linear-gradient(to bottom right, #3b82f6, #9333ea);
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
@@ -71,7 +75,8 @@ body {
 
 /* Settings */
 .settings-wrapper {
-  padding: 16px 16px 20px;
+  padding: 12px 16px 16px;
+  flex: 1;
 }
 
 .settings-card {
@@ -84,7 +89,7 @@ body {
 }
 
 .settings-list {
-  padding: 16px;
+  padding: 12px;
 }
 
 .setting-item {
@@ -95,7 +100,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px;
+  padding: 10px 12px;
   border-radius: 8px;
   transition: all 0.3s ease;
 }
@@ -190,15 +195,14 @@ body {
 
 /* Footer */
 .footer {
-  padding: 12px 20px 20px;
-  text-align: center;
+  padding: 0 20px 16px;
 }
 
 .footer > div {
   background: rgba(30, 41, 59, 0.3);
   border-radius: 8px;
   border: 1px solid rgba(71, 85, 105, 0.3);
-  padding: 12px;
+  padding: 10px;
 }
 
 .status {
@@ -209,7 +213,7 @@ body {
   color: #34d399;
   font-size: 12px;
   font-weight: 500;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .status-dot {
@@ -232,7 +236,7 @@ body {
 .update-info {
   font-size: 11px;
   color: #64748b;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .developer-info {
