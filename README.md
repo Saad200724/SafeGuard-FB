@@ -5,7 +5,7 @@ Take control of your Facebook experience by blocking distractions like Reels, St
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-**Developed by:** [Saad Bin Tofayel Tahsin](https://github.com/Saad200724)
+**Developer's Portfolio:** [Saad Bin Tofayel Tahsin](https://tahsin.cloud) 
 
 ---
 
